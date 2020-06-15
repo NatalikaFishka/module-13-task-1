@@ -1,0 +1,29 @@
+{
+  "name": "module-13-task-1",
+  "version": "1.0.0",
+  "description": "Appium plus Mobile Chrome",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "webdriver-manager update",
+    "test": "protractor appium.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatalikaFishka/module-13-task-1.git"
+  },
+  "keywords": [
+    "appium"
+  ],
+  "author": "Nataliya Okuneva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatalikaFishka/module-13-task-1/issues"
+  },
+  "homepage": "https://github.com/NatalikaFishka/module-13-task-1#readme",
+  "dependencies": {
+    "protractor": "^7.0.0"
+  },
+  "devDependencies": {
+    "jasmine-spec-reporter": "^5.0.2"
+  }
+}
